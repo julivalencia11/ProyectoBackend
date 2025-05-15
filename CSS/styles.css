@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Ajustes generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    z-index: 999;
+    text-align: center;
+}
+
+img .Logo1 {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    padding: 0%;
+}
+
+/* Encabezado principal */
+section.hero {
+    background-image: url('../IMG/IMG01.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-shadow: 1px 1px 5px #000;
+}
+
+.section-image {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+}
+
+
+/* Sección de encuesta */
+#encuesta form {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Botones */
+.btn-primary,
+.btn-secondary {
+    border-radius: 25px;
+    padding: 10px 25px;
+}
+
+/* Textos y títulos */
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
